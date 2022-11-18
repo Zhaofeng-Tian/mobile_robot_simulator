@@ -1,0 +1,11 @@
+lawn:
+  bf: 1     # boundary flag
+  bww: 1.7  # boundary world width
+  sx: 10    # size x [m]
+  sy: 10    # size y
+  rs: 0.01  # resolution
+
+robot:
+  dt: 0.2   # timestep 
+  a_limits: [[-0.5,0.2],[-2.,2.]]
+  v_limits: [[-0.5,0.2],[-2.,2.]]
